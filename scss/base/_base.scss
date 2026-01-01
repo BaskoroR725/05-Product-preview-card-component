@@ -1,0 +1,63 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body, h1, p, picture {
+  margin: 0;
+}
+
+body{
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: $ff-base;
+  background-color: $clr-neutral-cream;
+
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+}
+
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; 
+}
+
+.attribution {
+  font-size: 0.6875rem; 
+  text-align: center;
+  margin-block-start: 2rem;
+  padding-block-end: 1rem;
+
+  a {
+    color: $clr-primary-green;
+    transition: color 0.3s ease;
+
+    &:hover, 
+    &:focus-visible {
+      text-decoration: underline;
+      color: $clr-primary-green-dark;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+}

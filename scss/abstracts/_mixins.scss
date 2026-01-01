@@ -1,0 +1,11 @@
+@mixin mq-desktop {
+  @media (min-width: 37.5em) {
+    @content;
+  }
+}
+
+.product-card {
+  @include mq-desktop {
+    grid-template-columns: 1fr 1fr;
+  }
+}
