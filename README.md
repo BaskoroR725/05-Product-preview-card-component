@@ -27,7 +27,6 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-*Note: Please replace this with your actual project screenshot once deployed.*
 
 ### Links
 
