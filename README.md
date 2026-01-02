@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your GitHub URL here](https://github.com/yourusername/your-repo-name)
-- Live Site URL: [Add your live site URL here](https://your-live-site-url.vercel.app/)
+- Solution URL: [https://github.com/BaskoroR725/05-Product-preview-card-component.git](https://github.com/BaskoroR725/05-Product-preview-card-component.git)
+- Live Site URL: [https://baskoror725.github.io/05-Product-preview-card-component/](https://baskoror725.github.io/05-Product-preview-card-component/)
 
 ## My process
 
